@@ -55,6 +55,9 @@ YODPS target platforms include on-road and off-road vehicles, drones, marine ves
 
 [![Watch the video](https://img.youtube.com/vi/LsX0EGzu1fc/hqdefault.jpg)](https://youtu.be/LsX0EGzu1fc "Watch on YouTube")
 
+**Now with docking** recorded with a mobile phone and USB HDMI video grabber
+
+[![Watch the video](https://img.youtube.com/vi/B88OxGrW4sw/hqdefault.jpg)](https://youtu.be/B88OxGrW4sw "Watch on YouTube")
 
 ## 📦 Third-party dependencies
 
