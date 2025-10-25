@@ -37,9 +37,11 @@
 YODPS target platforms include on-road and off-road vehicles, drones, marine vessels, locomotives, industrial machinery, specialized defense systems, including giant humanoid robots.
 
 ## Screenshots 
-![](https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_002.png?raw=true)
-![](https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_003.png?raw=true)
+![](https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_007.jpeg?raw=true)
+![](https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_006.png?raw=true)
 ![](https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_004.png?raw=true)
+![](https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_003.png?raw=true)
+![](https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_002.png?raw=true)
 ![](https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_001.png?raw=true)
 
 ## Videos
