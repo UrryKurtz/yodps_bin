@@ -55,6 +55,11 @@ Now with docking.<br/>
 <img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_006.jpeg?raw=true" width="25%">
 </a>
 
+Added ZeroMQ connector to a <a href="https://github.com/facontidavide/PlotJuggler">PlotJuggler</a>.<br/>
+<a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_010.jpeg?raw=true" target="_blank">
+<img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_010.jpeg?raw=true" width="25%">
+</a>
+
 Plugins: <br/><br/>
 <b>Pub-Sub Test Plugin</b> sends/receives test messages. Very useful to check connections. <br/><br/>
 <b>CAN Viewer Plugin</b> uses DBC files to show CAN messages and signals. <br/><br/>
