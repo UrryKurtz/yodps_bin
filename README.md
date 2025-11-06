@@ -83,7 +83,9 @@ The beginning. Polyline Viewer</br>
 <a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_001.png?raw=true" target="_blank">
 <img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_001.png?raw=true" width="25%">
 </a>
+
 ---
+
 ## Videos
 **Camera control, Video and Polyline Plugins demo**<br/>
 <a href="https://youtu.be/yHRvpe6Kq-4" target="_blank">
@@ -151,6 +153,42 @@ By using this software, you agree to comply with the terms of one of the above l
 ## 💾 Download
 
 First binary release for x64 Linux, arm64 Linux, Android and x64 Windows coming soon.
+
+Binary project structure
+
+```text
+├── 📂 Autoload - rbfx data
+├── 📂 CoreData - rbfx data
+├── 📂 Data - rbfx data
+├── 📂 YODPS - YODPS config files, shaders, materials, models etc
+├── 📂 Logs - YODPS log directory
+├── 📂 plugins - YOViewer plugins directory
+│   ├── CAN_plugin.so
+│   ├── Camera_plugin.so
+│   ├── DataViewer_plugin.so
+│   ├── GPS_plugin.so
+│   ├── OBD2_plugin.so
+│   ├── Player_plugin.so
+│   ├── Plotter_plugin.so
+│   ├── Polyline_plugin.so
+│   ├── PubSubTest_plugin.so
+│   ├── Recorder_plugin.so
+│   └── Video_plugin.so
+├── yo_broker
+├── yo_can_in
+├── yo_gps
+├── yo_lidar_in
+├── yo_midi_in
+├── yo_models
+├── yo_pcap_in
+├── yo_player
+├── yo_receiver
+├── yo_recorder
+├── yo_sender
+├── yo_serial
+└── yo_v4l_in
+```
+Despite its seemingly simple design, the first version proved so reliable, fast, and efficient that it eventually displaced a commercial solution.
 
 ---
 
