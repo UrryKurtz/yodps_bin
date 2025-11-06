@@ -33,12 +33,22 @@
 **Wanna know more?**: 
   - See the [MANIFESTO.md](MANIFESTO.md).
 ---
+
 ## 🚗 Deployment
 
 YODPS target platforms include on-road and off-road vehicles, drones, marine vessels, locomotives, industrial machinery, specialized defense systems, including giant humanoid robots.
 
 ---
+
 ## Screenshots 
+
+Android port.With and without docking<br/>
+<a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_008.jpeg?raw=true" target="_blank">
+<img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_008.jpeg?raw=true" width="6.25%">
+</a><a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_007.jpeg?raw=true" target="_blank">
+<img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_007.jpeg?raw=true" width="25%">
+</a>
+
 
 Now with docking.<br/>
 <a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_006.jpeg?raw=true" target="_blank">
