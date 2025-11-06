@@ -3,13 +3,14 @@
 
 **YODPS** is a high-performance, modular framework for distributed data acquisition, processing, visualization, and recording — designed as a flexible alternative to commercial automotive/robotic middleware solutions, where such systems exist.
 
+---
 ## ✨ Features
 
 **Communication layer** based on [ZeroMQ](https://github.com/zeromq/libzmq), supporting **TCP**, **IPC**, and **shared memory** transport, with or without a broker.
 
 **Cross-platform**: x64 Linux & Windows, ARM64 Linux & QNX, Android, WebAssembly.
 
-**Extensible viewer application** using SDL+Urho3D and ImGui with next features:
+**Extensible viewer application** using SDL+rbfx and ImGui with next features:
   + Multi-camera video streaming
   + Creating and rendering 3D geometric objects and complex models in popular formats (OBJ, STL etc)
   + GUI overlay
@@ -31,50 +32,106 @@
 
 **Wanna know more?**: 
   - See the [MANIFESTO.md](MANIFESTO.md).
-
+---
 ## 🚗 Deployment
 
 YODPS target platforms include on-road and off-road vehicles, drones, marine vessels, locomotives, industrial machinery, specialized defense systems, including giant humanoid robots.
 
+---
 ## Screenshots 
-![](https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_006.jpeg?raw=true)
-![](https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_005.png?raw=true)
-![](https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_004.png?raw=true)
-![](https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_003.png?raw=true)
-![](https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_002.png?raw=true)
-![](https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_001.png?raw=true)
 
+Now with docking.<br/>
+<a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_006.jpeg?raw=true" target="_blank">
+<img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_006.jpeg?raw=true" width="25%">
+</a>
+
+Plugins: <br/><br/>
+<b>Pub-Sub Test Plugin</b> sends/receives test messages. Very useful to check connections. <br/><br/>
+<b>CAN Viewer Plugin</b> uses DBC files to show CAN messages and signals. <br/><br/>
+<b>Data Viewer</b> Uses XML media descriptions to visualize structures. <br/><br/>
+<b>Camera Plugin</b> Keeps presets for the virtual camera position. Creates a windows with additional 3D viewes.<br/><br/>
+<b>GPS</b> shows OpenStreetMap. Optionally centers the map in the coordinates, received from gpsd daemon.<br/><br/>
+<b>Video Streams</b> Shows video frames as a floating windows and/or as overlay sprites. <br/><br/>
+<b>Polyline Viewer</b> has simple API to visualize any custom geometry data. 3D models, pointclouds, lines, graphic primitives (cube, cone, sphere etc).<br/><br/>
+<b>OBD2 Plugin</b> Works with USB OBD2 dongle. Query values and converts them to a CAN message format so they could be visualized in the CAN viewer and Plotter. <br/><br/>
+<b>Plotter</b> simple plotter plugin. <br/><br/>
+<a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_005.png?raw=true" target="_blank">
+<img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_005.png?raw=true" width="50%">
+</a>
+
+Testing ARM64 port on RPi4.<br/>
+<a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_009.jpeg?raw=true" target="_blank">
+<img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_009.jpeg?raw=true" width="25%">
+</a>
+
+Plotter plugin.<br/>
+<a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_004.png?raw=true" target="_blank">
+<img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_004.png?raw=true" width="25%">
+</a>
+
+Viewer functionality split. Plugins API defined. GPS plugin gets map tails from OpenStreetMap<br/>
+<a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_003.png?raw=true" target="_blank">
+<img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_003.png?raw=true" width="25%">
+</a>
+
+With video streams<br/>
+<a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_002.png?raw=true" target="_blank">
+<img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_002.png?raw=true" width="25%">
+</a>
+
+The beginning. Polyline Viewer</br>
+<a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_001.png?raw=true" target="_blank">
+<img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_001.png?raw=true" width="25%">
+</a>
+---
 ## Videos
-**Camera control, Video and Polyline Plugins demo**
+**Camera control, Video and Polyline Plugins demo**<br/>
+<a href="https://youtu.be/yHRvpe6Kq-4" target="_blank">
+<img src="https://img.youtube.com/vi/yHRvpe6Kq-4/hqdefault.jpg" width="25%">
+</a>
 
-[![Watch the video](https://img.youtube.com/vi/yHRvpe6Kq-4/hqdefault.jpg)](https://youtu.be/yHRvpe6Kq-4 "Watch on YouTube")
+**Open Street Map GPS Plugin**<br/>
+<a href="https://youtu.be/4tj1m2y9mRg" target="_blank">
+<img src="https://img.youtube.com/vi/4tj1m2y9mRg/hqdefault.jpg" width="25%">
+</a>
 
-**Open Street Map GPS Plugin**
+**Plotter Plugin**<br/>
+<a href="https://youtu.be/LsX0EGzu1fc" target="_blank">
+<img src="https://img.youtube.com/vi/LsX0EGzu1fc/hqdefault.jpg" width="25%">
+</a>
 
-[![Watch the video](https://img.youtube.com/vi/4tj1m2y9mRg/hqdefault.jpg)](https://youtu.be/4tj1m2y9mRg "Watch on YouTube")
+**Now with docking** (recorded with a mobile phone and USB HDMI video grabber)<br/>
+<a href="https://youtu.be/B88OxGrW4sw" target="_blank">
+<img src="https://img.youtube.com/vi/B88OxGrW4sw/hqdefault.jpg" width="25%">
+</a>
 
-**Plotter Plugin**
+**MCAP recorder node and Recorder controller plugin for Visualization**<br/>
+<a href="https://youtu.be/mAF3oBv_RXg" target="_blank">
+<img src="https://img.youtube.com/vi/mAF3oBv_RXg/hqdefault.jpg" width="25%">
+</a>
 
-[![Watch the video](https://img.youtube.com/vi/LsX0EGzu1fc/hqdefault.jpg)](https://youtu.be/LsX0EGzu1fc "Watch on YouTube")
-
-**Now with docking** recorded with a mobile phone and USB HDMI video grabber
-
-[![Watch the video](https://img.youtube.com/vi/B88OxGrW4sw/hqdefault.jpg)](https://youtu.be/B88OxGrW4sw "Watch on YouTube")
-
+**MCAP player node and Visualization controller plugin**<br/>
+<a href="https://youtu.be/TjXcXtZIeSE" target="_blank">
+<img src="https://img.youtube.com/vi/TjXcXtZIeSE/hqdefault.jpg" width="25%">
+</a>
+---
 ## 📦 Third-party dependencies
-
 - [ZeroMQ (libzmq)](https://github.com/zeromq/libzmq) — MPL 2.0  
 - [MCAP](https://github.com/foxglove/mcap) — MIT License  
 - [libtins](https://github.com/mfontanini/libtins) — BSD 2-Clause License  
 - [LVGL](https://github.com/lvgl/lvgl) — MIT License  
 - [msgpack-c](https://github.com/msgpack/msgpack-c) — Boost Software License 1.0  
+- [cereal](https://uscilab.github.io/cereal/) — BSD 3-Clause License
 - [Urho3D](https://github.com/urho3d/Urho3D) — MIT License
 - [rbfx](https://github.com/rbfx/rbfx) — MIT License
 - [Dear ImGui](https://github.com/ocornut/imgui) — MIT License
 - [httplib](https://github.com/yhirose/cpp-httplib) — MIT License
 - [dbc_parser_cpp](https://github.com/LinuxDevon/dbc_parser_cpp) — MIT License
 - [opendbc](https://github.com/commaai/opendbc) — MIT License
-
+- [libjpeg-turbo](https://libjpeg-turbo.org/) — IJG (Independent JPEG Group) License, the Modified (3-clause) BSD License, and the zlib License
+- [RtMidi](https://github.com/thestk/rtmidi) — MIT License with the added feature that modifications be sent to the developer
+- [tinyxml2](https://github.com/leethomason/tinyxml2) — Zlib License
+---
 ## 📜 License
 
 This software is dual-licensed:
@@ -89,6 +146,11 @@ This software is dual-licensed:
    Contact: **y.odnokurtsev@gmail.com**
 
 By using this software, you agree to comply with the terms of one of the above licenses.
+
+---
+## 💾 Download
+
+First binary release for x64 Linux, arm64 Linux, Android and x64 Windows coming soon.
 
 ---
 
