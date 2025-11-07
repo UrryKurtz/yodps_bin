@@ -102,6 +102,12 @@ The beginning. Polyline Viewer</br>
 ---
 
 ## Videos
+
+**Now with audio streaming/recording/replay**<br/>
+<a href="https://youtu.be/cPLP47BBg38" target="_blank">
+<img src="https://img.youtube.com/vi/cPLP47BBg38/hqdefault.jpg" width="25%">
+</a>
+
 **Camera control, Video and Polyline Plugins demo**<br/>
 <a href="https://youtu.be/yHRvpe6Kq-4" target="_blank">
 <img src="https://img.youtube.com/vi/yHRvpe6Kq-4/hqdefault.jpg" width="25%">
@@ -192,6 +198,7 @@ Binary project structure
 ├── yo_broker
 ├── yo_can_in
 ├── yo_gps
+├── yo_jack
 ├── yo_lidar_in
 ├── yo_midi_in
 ├── yo_models
