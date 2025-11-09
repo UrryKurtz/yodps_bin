@@ -103,6 +103,12 @@ The beginning. Polyline Viewer</br>
 
 ## Videos
 
+**Testing a minimalist Python node for YODPS**<br/> 
+also demoing the simples way to visualize anything - jpeg stream + browser. <br/>
+<a href="https://youtu.be/hkHmnMoP_Vs" target="_blank">
+<img src="https://img.youtube.com/vi/hkHmnMoP_Vs/hqdefault.jpg" width="25%">
+</a>
+
 **Now with audio streaming/recording/replay**<br/>
 <a href="https://youtu.be/cPLP47BBg38" target="_blank">
 <img src="https://img.youtube.com/vi/cPLP47BBg38/hqdefault.jpg" width="25%">
