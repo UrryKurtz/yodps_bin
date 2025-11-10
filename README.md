@@ -190,31 +190,33 @@ Binary project structure
 ├── 📂 YODPS - YODPS config files, shaders, materials, models etc
 ├── 📂 Logs - YODPS log directory
 ├── 📂 plugins - YOViewer plugins directory
-│   ├── CAN_plugin.so
-│   ├── Camera_plugin.so
-│   ├── DataViewer_plugin.so
-│   ├── GPS_plugin.so
-│   ├── OBD2_plugin.so
-│   ├── Player_plugin.so
-│   ├── Plotter_plugin.so
-│   ├── Polyline_plugin.so
-│   ├── PubSubTest_plugin.so
-│   ├── Recorder_plugin.so
-│   └── Video_plugin.so
-├── yo_broker
-├── yo_can_in
-├── yo_gps
-├── yo_jack
-├── yo_lidar_in
-├── yo_midi_in
-├── yo_models
-├── yo_pcap_in
-├── yo_player
-├── yo_receiver
-├── yo_recorder
-├── yo_sender
-├── yo_serial
-└── yo_v4l_in
+│   ├── CAN_plugin.so         - Uses DBC files to display CAN/CANFD message/signals.
+│   ├── Camera_plugin.so      - The plugin saves and recalls up to 10 virtual camera positions, renders virtual cameras into a separate display window.
+│   ├── DataViewer_plugin.so  - Uses XML media descriptor files to show values of received data. Sends selected values to a Plotter plugin.
+│   ├── GPS_plugin.so         - Renders tiles from Open Street Map. Can keep map centered in a current GPS position, obtained from gpsd.
+│   ├── OBD2_plugin.so        - Polls USB OBD2 dongle, converts replys into CAN messages,
+│   ├── Player_plugin.so      - Controls console MCAP player
+│   ├── Plotter_plugin.so     - Simple Plotter plugin
+│   ├── Polyline_plugin.so    - Plugin responsible to receiving and displaying a 3D geometry data - pointclouds, lines, boxes, other primitives and 3D models (obj, stl etc) 
+│   ├── PubSubTest_plugin.so  - Simple Plugin to test connections. Could be used as chat.
+│   ├── Recorder_plugin.so    - Plugin controlling console MCAP recorder
+│   └── Video_plugin.so       - Plugin receiving and displayng YODPS Image/Video streams
+├── 📂 python                 - YODPS Python bindings.
+├── yo_alsa                   - Util to capture and redplay from ALSA devices 
+├── yo_broker                 - Core component of YODPS, but system also can run in a brokerless mode.
+├── yo_can_in                 - CAN/CAN FD receiver node 
+├── yo_gps                    - Node receiving GPS data from gpsd
+├── yo_jack                   - Jack Audio YODPS node  
+├── yo_lidar_in               - Converter for Lidar UDP data into polylines.
+├── yo_midi_in                - MIDI command receiver node.
+├── yo_models                 - Test node to send a 3D models to a viewer
+├── yo_pcap_in                - PCAP/libtins network sniffer node
+├── yo_player                 - Console MCAP player node.
+├── yo_receiver               - Test receiver node, useful to check connections and topics' content, also can store data in files.
+├── yo_recorder               - Console MCAP recorder node.
+├── yo_sender                 - Test sender node. Usually is used with test receiver
+├── yo_serial                 - Serial port read/write node. Works with USB OBD2 gadget. 
+└── yo_v4l_in                 - V4L2 video frame acquisition node.
 ```
 Despite its seemingly simple design, the first version proved so reliable, fast, and efficient that it eventually displaced a commercial solution.
 
