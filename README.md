@@ -200,6 +200,7 @@ Binary project structure
 ├── 📂 YODPS - YODPS config files, shaders, materials, models etc
 ├── 📂 Logs - YODPS log directory
 ├── 📂 plugins - YOViewer plugins directory
+│   ├── Appearance_plugin.so  - Sets up ImGui style - theme, colors, padding etc.
 │   ├── CAN_plugin.so         - Uses DBC files to display CAN/CANFD message/signals.
 │   ├── Camera_plugin.so      - The plugin saves and recalls up to 10 virtual camera positions, renders virtual cameras into a separate display window.
 │   ├── DataViewer_plugin.so  - Uses XML media descriptor files to show values of received data. Sends selected values to a Plotter plugin.
