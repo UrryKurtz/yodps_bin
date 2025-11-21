@@ -47,9 +47,23 @@ YODPS on the road. First try. <br/>
 <img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_011.png?raw=true" width="25%">
 </a>
 
+YODPS jack audio node test. 5ms end-to-end delay <br/>
+<a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_015.jpeg?raw=true" target="_blank">
+<img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_015.jpeg?raw=true" width="25%">
+</a>
+
+MCAP Recorder Controller Plugin. Just choose host and topic - data stream will be recorded. <br/>
+<a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_016.png?raw=true" target="_blank">
+<img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_016.png?raw=true" width="25%">
+</a>
+
 Always look on the bright side of the life. Now with ImGui theme switching (Dark/Light/Classic) <br/>
 <a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_012.png?raw=true" target="_blank">
 <img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_012.png?raw=true" width="25%">
+</a><a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_014.png?raw=true" target="_blank">
+<img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_014.png?raw=true" width="25%">
+</a><a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_013.png?raw=true" target="_blank">
+<img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_013.png?raw=true" width="25%">
 </a>
 
 Android port.With and without docking<br/>
@@ -216,6 +230,8 @@ Binary project structure
 ├── yo_alsa                   - Util to capture and redplay from ALSA devices 
 ├── yo_broker                 - Core component of YODPS, but system also can run in a brokerless mode.
 ├── yo_can_in                 - CAN/CAN FD receiver node 
+├── yo_can_out                - CAN/CAN FD transmitter node 
+├── yo_cv                     - OpenCV node. Creates a point cloud from two syncronized stereo video streams. 
 ├── yo_gps                    - Node receiving GPS data from gpsd
 ├── yo_jack                   - Jack Audio YODPS node  
 ├── yo_lidar_in               - Converter for Lidar UDP data into polylines.
