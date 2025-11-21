@@ -127,6 +127,11 @@ The beginning. Polyline Viewer</br>
 
 ## Videos
 
+**Replay of the trace recoreded in the car** GPS, OBD2, CAN, DataViewer<br/>
+<a href="https://youtu.be/3CW96INwKdE" target="_blank">
+<img src="https://img.youtube.com/vi/3CW96INwKdE/hqdefault.jpg" width="25%">
+</a>
+
 **Testing a minimalist Python node for YODPS**<br/> 
 also demoing the simples way to visualize anything - jpeg stream + browser. <br/>
 <a href="https://youtu.be/hkHmnMoP_Vs" target="_blank">
