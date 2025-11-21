@@ -47,7 +47,7 @@ YODPS on the road. First try. <br/>
 <img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_011.png?raw=true" width="25%">
 </a>
 
-YODPS jack audio node test. 5ms end-to-end delay <br/>
+YODPS jack audio node test. 5ms end-to-end delay. [Jack]->[YODPS jack node]-ZMQ->[Broker]-ZMQ->[YODPS jack node]->Jack <br/>
 <a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_015.jpeg?raw=true" target="_blank">
 <img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_015.jpeg?raw=true" width="25%">
 </a>
