@@ -127,6 +127,12 @@ The beginning. Polyline Viewer</br>
 
 ## Videos
 
+
+**Replay of the new trace recoreded in the car** Stereo Cameras, GPS, OBD2, CAN, DataViewer<br/>
+<a href="https://youtu.be/20uZSOordOU" target="_blank">
+<img src="https://img.youtube.com/vi/20uZSOordOU/hqdefault.jpg" width="25%">
+</a>
+
 **Replay of the trace recoreded in the car** GPS, OBD2, CAN, DataViewer<br/>
 <a href="https://youtu.be/3CW96INwKdE" target="_blank">
 <img src="https://img.youtube.com/vi/3CW96INwKdE/hqdefault.jpg" width="25%">
