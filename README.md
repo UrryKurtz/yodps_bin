@@ -261,17 +261,20 @@ Binary project structure
 ├── yo_can_out                - CAN/CAN FD transmitter node 
 ├── yo_cv                     - OpenCV node. Creates a point cloud from two syncronized stereo video streams. 
 ├── yo_gps                    - Node receiving GPS data from gpsd
+├── yo_gz_cam                 - Node receiving video streams from Gazebo (gz) simulator
 ├── yo_jack                   - Jack Audio YODPS node  
 ├── yo_lidar_in               - Converter for Lidar UDP data into polylines.
 ├── yo_midi_in                - MIDI command receiver node.
 ├── yo_models                 - Test node to send a 3D models to a viewer
+├── yo_odom_k                 - CAN to polylones converter node. Creates overlay with gauges.
 ├── yo_pcap_in                - PCAP/libtins network sniffer node
 ├── yo_player                 - Console MCAP player node.
 ├── yo_receiver               - Test receiver node, useful to check connections and topics' content, also can store data in files.
 ├── yo_recorder               - Console MCAP recorder node.
 ├── yo_sender                 - Test sender node. Usually is used with test receiver
-├── yo_serial                 - Serial port read/write node. Works with USB OBD2 gadget. 
-└── yo_v4l_in                 - V4L2 video frame acquisition node.
+├── yo_serial                 - Serial port read/write node. Works with USB OBD2 gadget.
+├── yo_v4l_in                 - V4L2 video frame acquisition node.
+└── yo_viewer                 - YOViewer. A customizable visualization for real-time systems, combining 3D rendering, video, maps, and structured data inspection in a single tool.
 ```
 Despite its seemingly simple design, the first version proved so reliable, fast, and efficient that it eventually displaced a commercial solution.
 
