@@ -47,6 +47,15 @@ YODPS on the road. First try. <br/>
 <img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_011.png?raw=true" width="25%">
 </a>
 
+YODPS with a stereo cameras and OpenCV node.<br/>
+<a href="https://github.com/YODPS/yodps_bin/blob/master/Doc/Screenshot_017.jpeg?raw=true" target="_blank">
+<img src="https://github.com/YODPS/yodps_bin/blob/master/Doc/Screenshot_017.jpeg?raw=true" width="25%">
+</a><a href="https://github.com/YODPS/yodps_bin/blob/master/Doc/Screenshot_018.jpeg?raw=true" target="_blank">
+<img src="https://github.com/YODPS/yodps_bin/blob/master/Doc/Screenshot_018.jpeg?raw=true" width="25%">
+</a>
+
+
+
 YODPS jack audio node test. 5ms end-to-end delay. [Jack]->[YODPS jack node]-ZMQ->[Broker]-ZMQ->[YODPS jack node]->Jack <br/>
 <a href="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_015.jpeg?raw=true" target="_blank">
 <img src="https://github.com/UrryKurtz/yodps_bin/blob/master/Doc/Screenshot_015.jpeg?raw=true" width="25%">
@@ -127,6 +136,10 @@ The beginning. Polyline Viewer</br>
 
 ## Videos
 
+**Overlay with a visibility mask** <br/>
+<a href="https://youtu.be/_Wg4lJOWCjg" target="_blank">
+<img src="https://img.youtube.com/vi/_Wg4lJOWCjg/hqdefault.jpg" width="25%">
+</a>
 
 **Replay of the new trace recoreded in the car** Stereo Cameras, GPS, OBD2, CAN, DataViewer<br/>
 <a href="https://youtu.be/20uZSOordOU" target="_blank">
